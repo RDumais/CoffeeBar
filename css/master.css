@@ -1,0 +1,202 @@
+body {
+  background-color: #d4c1a9;
+}
+
+.container {
+  background-color: white;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+#secondRow {
+  display: flex;
+  align-items: center;
+}
+
+#mainImage {
+  background-image: url("https://ryanduma.is/projects/coffeebar/img/coffee.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+footer {
+  border-top: 1px solid black;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.restaurant_menu__list {
+  /* Just for this example */
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  /* For em cross-browser sizing */
+  /* For mobile devices */
+  max-width: 500px;
+  /* Custom max width for readbility */
+}
+
+.restaurant_menu__row {
+  border-bottom: 2px dotted #B5ABAB;
+  /* Our dotted line, we can use border-image instead */
+  position: relative;
+  float: left;
+  line-height: 1.2em;
+  margin: -.9em 0 0 0;
+  width: 100%;
+  text-align: left;
+}
+
+.restaurant_menu__meal span, .restaurant_menu__price {
+  background-color: #FFF;
+  /* For .restaurant_menu__row background rewriting */
+}
+
+.restaurant_menu__meal {
+  padding-right: 3em;
+  /* Custom number for space between text and right side of .restaurant_menu__row; must be greater than .restaurant_menu__price max-width to avoid overlapping */
+}
+
+.restaurant_menu__meal span {
+  margin: 0;
+  position: relative;
+  top: 1.6em;
+  padding-right: 5px;
+  /* Custom number for space between text and dotted line */
+}
+
+.restaurant_menu__price {
+  padding: 1px 0 1px 5px;
+  position: relative;
+  top: .4em;
+  left: 1px;
+  /* ie6 rounding error*/
+  float: right;
+}
+
+ul li:last-child {
+  margin-bottom: 8px;
+}
+
+h6 {
+  margin: 0 !important;
+  font-weight: bold;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+#googleMaps {
+  min-height: 300px;
+}
+
+address {
+  margin: 0;
+  font-size: .9rem;
+}
+
+.table td, .table th {
+  padding: .25rem;
+  vertical-align: top;
+  border-top: 1px solid #e9ecef;
+}
+
+table {
+  font-size: 14px;
+}
+
+tr td:last-child {
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  hr {
+    display: none;
+  }
+  .collapse {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  #menuExpand {
+    display: inline !important;
+    position: absolute;
+    right: 20px;
+    margin-top: 4px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Spectral SC', serif !important;
+}
+
+h4 {
+  padding-top: 8px;
+}
+
+h1 {
+  margin-top: 8px;
+}
+
+#menuExpand {
+  display: none;
+  height: 20px;
+}
+
+#socialMedia img {
+  height: 30px;
+}
+
+#thumbnailGallery img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+button>img {
+  height: 20px;
+}
+
+fieldset {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footerRow {
+  display: flex;
+  align-items: center;
+}
+
+#newsLetterSubmit {
+  margin-left: 3px;
+  border-radius: 0;
+  background-color: #d4c1a900;
+}
+
+#newsLetterEmail {
+  text-align: center;
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1;
+  padding: 0;
+}
+
+#newsLetterEmail:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+fieldset {
+  width: 100%
+}
