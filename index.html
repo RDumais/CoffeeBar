@@ -1,313 +1,225 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="en" dir="auto">
 <head>
+	<meta charset="utf-8">
+	<title>Mint Coffee Bar</title>
+
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  <meta name="description" content="Fictional Coffee Bar webpage for educational purposes">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta content="#ffffff" name="theme-color">
+
+	<link async href="css/master.css" rel="stylesheet">
 
 
-
-
-  <title>Jopey' Coffee Bar</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/master.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png">
-  <link rel="manifest" href="favicon//manifest.json">
-  <link rel="mask-icon" href="favicon//safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="theme-color" content="#ffffff">
-
+	<link href="favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="favicon//favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<link href="favicon//manifest.json" rel="manifest">
+	<link href="favicon//safari-pinned-tab.svg" rel="mask-icon">
 
 </head>
-
 <body>
-
-  <div class="container">
-
-
-    <nav>
-      <div class="row" style="
-        display: flex;
-        align-items: center;
-    ">
-        <div class="col-md-8 text-center">
-          <h4>Jopey Coffee Bar</h4></div>
-        <div id="socialMedia" class="col-md-4 text-center">
-          <img src="img/facebook.svg">
-          <img src="img/twitter.svg">
-          <img src="img/googleplus.svg"></div>
-      </div>
-
-    </nav>
-
-    <main>
-      <div id="firstRow" class="row">
-        <div id="mainImage" class="col-md-8"></div>
-        <div class="col-md-4">
-          <hr>
-          <h4 id="menuText" class="text-center">Menu<img id="menuExpand" src="img/downarrow.svg" alt=""></h4>
-
-          <div id="menuList" class="collapse">
-            <h6>Expressos</h6>
-            <ul class="restaurant_menu__list">
-
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Espresso</span></div>
-                <span class="restaurant_menu__price">$2.50</span>
-              </li>
-
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Macchiato</span></div>
-                <span class="restaurant_menu__price">$3.25</span>
-              </li>
-
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Cappuccino</span></div>
-                <span class="restaurant_menu__price">$3.75</span>
-              </li>
-
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Latte</span></div>
-                <span class="restaurant_menu__price">$4.00</span>
-              </li>
-
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Americano</span></div>
-                <span class="restaurant_menu__price">$3.50</span>
-              </li>
-            </ul>
-
-            <h6>Signature Drinks</h6>
-            <ul class="restaurant_menu__list">
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>TCHO Mocha</span></div>
-                <span class="restaurant_menu__price">$4.75</span>
-              </li>
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Vanilla Bean</span></div>
-                <span class="restaurant_menu__price">$4.75</span>
-              </li>
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Salted Caramel</span></div>
-                <span class="restaurant_menu__price">$4.75</span>
-              </li>
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Affogato</span></div>
-                <span class="restaurant_menu__price">$4.25</span>
-              </li>
-            </ul>
-
-            <h6>Coffee</h6>
-            <ul class="restaurant_menu__list">
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Hand Brewed</span></div>
-                <span class="restaurant_menu__price">$4.00</span>
-              </li>
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Machine Brewed</span></div>
-                <span class="restaurant_menu__price">$2.50</span>
-              </li>
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>24hr Cold Brew</span></div>
-                <span class="restaurant_menu__price">$3.50</span>
-              </li>
-            </ul>
-
-            <h6>Non-Coffees</h6>
-            <ul class="restaurant_menu__list">
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Tea</span></div>
-                <span class="restaurant_menu__price">$3.00</span>
-              </li>
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Machine Brewed</span></div>
-                <span class="restaurant_menu__price">$2.50</span>
-              </li>
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>24hr Cold Brew</span></div>
-                <span class="restaurant_menu__price">$3.50</span>
-              </li>
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Hot Chocolate</span></div>
-                <span class="restaurant_menu__price">$2.50</span>
-              </li>
-            </ul>
-
-            <h6>Extras</h6>
-            <ul class="restaurant_menu__list">
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Tea</span></div>
-                <span class="restaurant_menu__price">$3.00</span>
-              </li>
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Machine Brewed</span></div>
-                <span class="restaurant_menu__price">$2.50</span>
-              </li>
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>24hr Cold Brew</span></div>
-                <span class="restaurant_menu__price">$3.50</span>
-              </li>
-              <li class="restaurant_menu__row">
-                <div class="restaurant_menu__meal"><span>Hot Chocolate</span></div>
-                <span class="restaurant_menu__price">$2.50</span>
-              </li>
-            </ul>
-
-          </div>
-
-
-        </div>
-      </div>
-
-
-      <div id="secondRow" class="row">
-        <div class="col-md-8">
-          <hr>
-          <h1 class="text-center">Welcome</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum placerat sodales. Integer vestibulum arcu nulla, sit amet scelerisque tellus placerat sed. Fusce ornare vel sapien vitae vulputate. Morbi id accumsan sem. Aenean mauris quam,
-            egestas in elit rutrum, suscipit hendrerit ipsum. Nunc ac suscipit mauris. Maecenas scelerisque tincidunt finibus. Cras sagittis pellentesque molestie. Nam vitae viverra mauris, in porta urna. Curabitur nec consequat nisl. Nunc nec faucibus
-            mauris, nec ullamcorper ligula. Donec at dui non nisi convallis facilisis sit amet vel lacus.</p>
-          <p>Vivamus ac felis a eros faucibus euismod. Nulla eu risus dignissim, suscipit elit at, faucibus nisi. Etiam eget pharetra sapien. Nulla quis quam mi. Proin ornare faucibus mi, ac lobortis nunc euismod in. In molestie quam sed ligula ultrices
-            tempor. Cras dignissim sem quis ligula imperdiet consequat. Quisque in vehicula augue. Maecenas ac justo quam. Praesent eros felis, vestibulum id libero non, interdum facilisis ante. Pellentesque mattis egestas metus, ac efficitur lectus hendrerit
-            eget. Pellentesque maximus velit sed interdum suscipit. In finibus malesuada venenatis.</p>
-
-
-        </div>
-        <div class="col-md-4">
-          <hr>
-          <h4 class="text-center">Hours</h4>
-          <table class="table">
-            <tbody>
-              <tr>
-                <td>
-                  Monday
-                </td>
-                <td>
-                  6:00AM - 7:00PM
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Tuesday
-                </td>
-                <td>
-                  6:00AM - 7:00PM
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Wednesday
-                </td>
-                <td>
-                  6:00AM - 7:00PM
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Thursday
-                </td>
-                <td>
-                  6:00AM - 7:00PM
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Friday
-                </td>
-                <td>
-                  6:00AM - 7:00PM
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Saturday
-                </td>
-                <td>
-                  6:00AM - 8:00PM
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Sunday
-                </td>
-                <td>
-                  6:00AM - 5:00PM
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </main>
-
-    <footer>
-      <div id="footerRow" class="row">
-        <div class="col-md-4 text-center">
-
-          <h5>Subscribe to our newletter</h5>
-          <pre>» Discounts</pre>
-
-
-
-
-        </div>
-        <div class="col-md-4">
-          <form class="form-inline">
-            <fieldset>
-              <div class="input-group">
-                <label for="newsLetterEmail"></label>
-                <input id="newsLetterEmail" name="newsLetterEmail" type="text" placeholder="email" required="" class="form-control">
-                <label class="control-label" for="newsLetterSubmit"></label>
-                <button id="newsLetterSubmit" name="newsLetterSubmit"  class="btn"><img src="img/arrowright.svg" alt=""></button>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-        <div class="col-md-4">
-          <hr>
-
-
-          <address>
-            <b>Jopey Coffee Bar ·</b>
-            103 School Street <br>
-            Danielson, CT 06239 ·
-            (860) 421-9456</address>
-
-
-        </div>
-
-      </div>
-    </footer>
-
-
-  </div>
-
-
-
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  <script async src="js/validator.min.js">
-  </script>
-
-  <script>
-    $('#menuText').click(function() {
-      if ($(window).width() < 768) {
-        $('.collapse').collapse('toggle');
-      }
-    });
-  </script>
+	<div class="container">
+		<nav role="navigation">
+			<div class="row">
+				<div class="col-md-8 text-center">
+					<h4>Mint Coffee Bar</h4>
+				</div>
+				<div class="col-md-4 text-center" id="socialMedia">
+					<a href="#"><img src="img/facebook.svg" alt="Facebook"></a> <a href="#"><img src="img/twitter.svg" alt="Twitter"></a> <a href="#"><img src="img/googleplus.svg" alt="Google Plus"></a>
+				</div>
+			</div>
+		</nav>
+		<main role="main">
+			<div class="row" id="firstRow">
+				<div class="col-md-8" id="mainImage"></div>
+				<div class="col-md-4">
+					<hr>
+					<h4 class="text-center" id="menuText">Menu<img alt="" id="menuExpand" src="img/downarrow.svg"></h4>
+					<div class="collapse" id="menuList">
+						<h6>Expressos</h6>
+						<ul class="restaurant_menu__list">
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Espresso</span>
+								</div><span class="restaurant_menu__price">$2.50</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Macchiato</span>
+								</div><span class="restaurant_menu__price">$3.25</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Cappuccino</span>
+								</div><span class="restaurant_menu__price">$3.75</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Latte</span>
+								</div><span class="restaurant_menu__price">$4.00</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Americano</span>
+								</div><span class="restaurant_menu__price">$3.50</span>
+							</li>
+						</ul>
+						<h6>Signature Drinks</h6>
+						<ul class="restaurant_menu__list">
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>TCHO Mocha</span>
+								</div><span class="restaurant_menu__price">$4.75</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Vanilla Bean</span>
+								</div><span class="restaurant_menu__price">$4.75</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Salted Caramel</span>
+								</div><span class="restaurant_menu__price">$4.75</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Affogato</span>
+								</div><span class="restaurant_menu__price">$4.25</span>
+							</li>
+						</ul>
+						<h6>Coffee</h6>
+						<ul class="restaurant_menu__list">
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Hand Brewed</span>
+								</div><span class="restaurant_menu__price">$4.00</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Machine Brewed</span>
+								</div><span class="restaurant_menu__price">$2.50</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>24hr Cold Brew</span>
+								</div><span class="restaurant_menu__price">$3.50</span>
+							</li>
+						</ul>
+						<h6>Non-Coffees</h6>
+						<ul class="restaurant_menu__list">
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Tea</span>
+								</div><span class="restaurant_menu__price">$3.00</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Machine Brewed</span>
+								</div><span class="restaurant_menu__price">$2.50</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>24hr Cold Brew</span>
+								</div><span class="restaurant_menu__price">$3.50</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Hot Chocolate</span>
+								</div><span class="restaurant_menu__price">$2.50</span>
+							</li>
+						</ul>
+						<h6>Extras</h6>
+						<ul class="restaurant_menu__list">
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Cream</span>
+								</div><span class="restaurant_menu__price">50¢</span>
+							</li>
+							<li class="restaurant_menu__row">
+								<div class="restaurant_menu__meal">
+									<span>Sugar</span>
+								</div><span class="restaurant_menu__price">50¢</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="secondRow">
+				<div class="col-md-8">
+					<hr>
+					<h1 class="text-center">Welcome</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum placerat sodales. Integer vestibulum arcu nulla, sit amet scelerisque tellus placerat sed. Fusce ornare vel sapien vitae vulputate. Morbi id accumsan sem. Aenean mauris quam, egestas in elit rutrum, suscipit hendrerit ipsum. Nunc ac suscipit mauris. Maecenas scelerisque tincidunt finibus. Cras sagittis pellentesque molestie. Nam vitae viverra mauris, in porta urna. Curabitur nec consequat nisl. Nunc nec faucibus mauris, nec ullamcorper ligula. Donec at dui non nisi convallis facilisis sit amet vel lacus.</p>
+					<p>Vivamus ac felis a eros faucibus euismod. Nulla eu risus dignissim, suscipit elit at, faucibus nisi. Etiam eget pharetra sapien. Nulla quis quam mi. Proin ornare faucibus mi, ac lobortis nunc euismod in. In molestie quam sed ligula ultrices tempor. Cras dignissim sem quis ligula imperdiet consequat. Quisque in vehicula augue. Maecenas ac justo quam. Praesent eros felis, vestibulum id libero non, interdum facilisis ante. Pellentesque mattis egestas metus, ac efficitur lectus hendrerit eget. Pellentesque maximus velit sed interdum suscipit. In finibus malesuada venenatis.</p>
+				</div>
+				<div class="col-md-4">
+					<hr>
+					<h4 class="text-center">Hours</h4>
+					<table class="table">
+						<tbody>
+							<tr>
+								<td>Monday</td>
+								<td>6:00AM - 7:00PM</td>
+							</tr>
+							<tr>
+								<td>Tuesday</td>
+								<td>6:00AM - 7:00PM</td>
+							</tr>
+							<tr>
+								<td>Wednesday</td>
+								<td>6:00AM - 7:00PM</td>
+							</tr>
+							<tr>
+								<td>Thursday</td>
+								<td>6:00AM - 7:00PM</td>
+							</tr>
+							<tr>
+								<td>Friday</td>
+								<td>6:00AM - 7:00PM</td>
+							</tr>
+							<tr>
+								<td>Saturday</td>
+								<td>6:00AM - 8:00PM</td>
+							</tr>
+							<tr>
+								<td>Sunday</td>
+								<td>6:00AM - 5:00PM</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="row" id="footerRow">
+				<div class="col-md-8 text-center">
+					<h5 id="subscribeHeader">Subscribe to our newsletter</h5>
+					<p>Receive discounts, participate in giveaways, and stay current with new flavors</p>
+					<form class="form-inline">
+						<fieldset>
+							<div class="input-group">
+								<label for="newsLetterEmail"></label> <input class="form-control" id="newsLetterEmail" name="newsLetterEmail" placeholder="email" required="" type="text"> <label class="control-label" for="newsLetterSubmit"></label> <button class="btn" id="newsLetterSubmit" name="newsLetterSubmit"><img alt="" src="img/arrowright.svg"></button>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+				<div class="col-md-4">
+					<hr>
+					<address>
+						<b>Mint Coffee Bar ·</b> 103 School Street<br>
+						Danielson, CT 06239 · (860) 421-9456
+					</address>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js">
+	</script>
+<script src="js/master.js"></script>
 </body>
-
 </html>
